@@ -1,0 +1,12 @@
+﻿
+body {
+    padding: 100px;
+}
+
+.question {
+    display: none;
+}
+
+.done {
+    color: #c7c9cc;
+}

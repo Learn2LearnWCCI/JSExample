@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- The Questions -->
+    <div class="question" id="q0">
+        <table>
+            <tr>
+                <td><h3>Question 1</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radio0" value="a">Male<br>
+                    <input type="radio" name="radio0" value="v">Female<br>
+                    <input type="radio" name="radio0" value="k">Other
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="question" id="q1">
+        <table>
+            <tr>
+                <td><h3>Question 2</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radio1" value="a">Dog<br>
+                    <input type="radio" name="radio1" value="v">Cat<br>
+                    <input type="radio" name="radio1" value="k">Rabbit
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="question" id="q2">
+        <table>
+            <tr>
+                <td><h3>Question 3</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radio2" value="a">Rocket<br>
+                    <input type="radio" name="radio2" value="v">Jet Ski<br>
+                    <input type="radio" name="radio2" value="k">Segway
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="question" id="q3">
+        <table>
+            <tr>
+                <td><h3>Question 4</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radio3" value="a">Asia<br>
+                    <input type="radio" name="radio3" value="v">Mali<br>
+                    <input type="radio" name="radio3" value="k">Peru
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- The Next/Prev buttons-->
+    <div>
+        <br/>
+        <hr/>
+        <input class="btnNav" type="button" value="Prev" id="btnPrev" disabled />
+        <input class="btnNav" type="button" value="Next" id="btnNext" disabled />
+    </div>
+
+    <!-- The Submit button-->
+    <div>
+        <br />
+        <hr />
+        <div class="done">
+            <h3>Thank you for taking our quiz</h3>
+            <input class="btnSub" type="button" value="Submit" id="btnSubmit" disabled />
+        </div>
+    </div>
+
+    <form>
+        <input type="hidden" id="Visual" name="Visual" />
+        <input type="hidden" id="Auditory" name="Auditory"/>
+        <input type="hidden" id="Kinetic" name="Kinetic"/>
+    </form>
+</body>
+</html>
